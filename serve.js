@@ -1,7 +1,11 @@
 const express = require('express');
 const app = express();
 
-app.get('/rodolfo', (req, res) => {
+app.get('/uno', (req, res) => {
+    res.send('Hello World');
+});
+
+app.post('/dos', (req, res) => {
     res.send('Hello World');
 });
 
